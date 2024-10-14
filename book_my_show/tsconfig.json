@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES2016",
+      "module": "commonjs",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "outDir": "./build",
+      "sourceMap": true
+    },
+    // "include": ["./**/*.ts"],
+    "filesGlob": [
+      "./**/*.ts"
+    ],
+    "exclude": ["**/*.spec.ts"]
+  }
